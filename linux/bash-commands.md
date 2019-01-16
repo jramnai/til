@@ -5,7 +5,7 @@ frequently and important bash commnads used on linux machine
 	-Options : 
 		-r = recursive,
 		-f = force
-	-Ex: 	'''sh
+	-Ex: 	```sh
 			rm -rf
-			'''
+			```
 	
