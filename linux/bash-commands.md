@@ -1,8 +1,11 @@
-Useful bash commands : 
+#Useful bash commands
+frequently and important bash commnads used on linux machine
 
 1. rm [options]
-	Options : 
+	-Options : 
 		-r = recursive,
 		-f = force
-	Ex: 	rm -rf
+	-Ex: 	'''sh
+			rm -rf
+			'''
 	
