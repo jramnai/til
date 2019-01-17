@@ -23,7 +23,7 @@ frequently and important bash commnads used on linux machine
     ps = shows currently running processes (aka. jobs)
 
 ## 3. Disk, Memory, and Processor Usage
-    ### top / htop
+    **top / htop**
         top displays all currently-running processes and their owners, memory usage, and more. htop is an improved, interactive top. 
 
 ## 4. Environment Variables
@@ -44,13 +44,13 @@ frequently and important bash commnads used on linux machine
     finds   - iterates through the file system to find the file you're looking for.  
 
 ## 6. Downloading Things
-    ### ping / wget / curl
+    **ping / wget / curl**
     ping - attempts to open a line of communication with a network host. Mainly, it's used to check whether or not your Internet connection is down
 
     wget http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso
     curl http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso --output ubuntu.iso
 
-    #### Pros and Cons
+    ***Pros and Cons***
     curl supports many more protocols and is more widely available than wget
     curl can also send data, while wget can only receive data
     wget can download files recursively, while curl cannot.
@@ -63,7 +63,7 @@ frequently and important bash commnads used on linux machine
     To see file or dicrectory permissions 
         ls -lh
 
-    ### chmod / chown
+    **chmod / chown**
     File permissions can be modified with chmod by setting the access bits:
     Ex : chmod 777 test
          chmod +rwx tist
@@ -80,13 +80,13 @@ frequently and important bash commnads used on linux machine
     Ex : grep -e ".*fi.*" /etc/profile
          grep "andrew" /etc/passwd
     
-    deprecated :
+    **deprecated :**
     egrep - use of extended regular expressions
     fgrep - matching any one of multiple strings at once
     rgrep - recursively searching files within a directory
 
 ## 10. Fun But Mostly Useless Things
-    ### w / write / wall / lynx
+    **w / write / wall / lynx**
     w - is a more detailed who, showing who’s logged in and what they’re doing
     write - echo "hello" | write andrew pts/10
     wall is similar to write, but it sends the same message to every logged-in user.
