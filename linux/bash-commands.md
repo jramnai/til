@@ -74,7 +74,7 @@ frequently and important bash commnads used on linux machine
             sudo chgrp hadoop tist && ls -lh
 
 ## 9. Pattern Matching
-    `grep - g/re/p (search globally for a regular expression and print it)`
+    grep - g/re/p (search globally for a regular expression and print it)
 
     grep is used to find lines of a file which match some pattern:
         Ex : grep -e ".*fi.*" /etc/profile
